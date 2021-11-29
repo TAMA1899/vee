@@ -13,12 +13,12 @@ import aiofiles
 import aiohttp
 import requests
 import wget
-import yt_dlp
+import yt-dlp
 from pyrogram import Client, filters
 from pyrogram.errors import FloodWait, MessageNotModified
 from pyrogram.types import Message
 from youtube_search import YoutubeSearch
-from yt_dlp import YoutubeDL
+from yt-dlp.yt-dlp import YoutubeDL
 
 from config import BOT_USERNAME as bn
 from helpers.decorators import humanbytes
